@@ -25,3 +25,5 @@ npm run build
 
 ## Demo
 
+https://github.com/kosheleva/meteo_blog_react_app/assets/9432202/d3fd843c-a5ce-4379-b447-17c3cf6da62e
+
