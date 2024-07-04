@@ -1,0 +1,19 @@
+.panel_contacts_info {
+  background-image: url("../../assets/contacts.jpg");
+  height: 950px;
+  font-size: 40px;
+  text-align: center;
+  padding: 50px;
+}
+
+.panel_contacts_info .contacts_list {
+  opacity: 0.7;
+}
+
+@media (max-width: 480px) {
+  .panel_contacts_info {
+    height: 350px;
+    margin: 40px 40px;
+    font-size: 20px;
+  }
+}

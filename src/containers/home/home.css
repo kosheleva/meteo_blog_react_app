@@ -1,0 +1,22 @@
+.panel_home_blog_info {
+  background-image: url("../../assets/home_background.jpg");
+  height: 850px;
+  font-size: 45px;
+  text-align: center;
+  padding: 50px;
+}
+
+.panel_home_contacts_info {
+  background-image: url("../../assets/contacts_info_panel.jpg");
+  height: 350px;
+  font-size: 40px;
+  text-align: center;
+  padding: 50px;
+}
+
+@media (max-width:480px) {
+
+  .panel_home_blog_info, .panel_home_contacts_info {
+    padding: 30px;
+  }
+}

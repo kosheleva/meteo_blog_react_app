@@ -1,0 +1,76 @@
+html, body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-image: url("assets/starry_sky.jpeg");
+
+  position: relative;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 50px 0px;
+}
+
+.panel {
+  margin: 70px 70px;
+  color: white;
+
+  box-shadow:
+    2px 2px 70px blue, 
+    -2px -2px 20px rgba(117, 117, 117, 0.8);
+}
+
+.text_shadow {
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.panel_article {
+  background-image: url("assets/article_panel.png");
+  margin: 70px 70px;
+  color: black;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.panel_article .card-title {
+  font-size: 30px;
+}
+
+.panel_article .card-text {
+  font-size: 20px;
+}
+
+.panel_article .card-title .badge, .panel_article .author_block {
+  float: right;
+}
+
+
+@media (max-width:480px) {
+  .panel {
+    font-size: 20px;
+    margin: 40px 40px;
+    height: 550px;
+  }
+
+  .panel_article {
+    height: 200px;
+    margin: 10px 10px;
+  }
+
+  .panel_article .card-title {
+    font-size: 20px;
+  }
+
+  .panel_article .card-text {
+    font-size: 10px;
+  }
+}

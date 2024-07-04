@@ -1,0 +1,10 @@
+.form_container {
+  font-size: 25px;
+  margin: 50px 0px;
+}
+
+@media (max-width: 480px) {
+  .form_container {
+    margin: 20px 20px;
+  }
+}

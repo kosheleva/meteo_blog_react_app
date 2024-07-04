@@ -1,0 +1,20 @@
+.header {
+  background-color: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  top: 0;
+}
+
+.header_link {
+  font-size: 25px;
+  padding: 10px 0px;
+}
+
+.header_link a {
+  color: #ffffff;
+}
+
+.header_link a:hover {
+  color: #bdb2b2;
+}

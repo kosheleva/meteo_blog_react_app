@@ -1,0 +1,19 @@
+.button_block {
+  margin: 70px 70px;
+}
+
+.article_btn_title {
+  font-size: 20px !important;
+  font-weight: bold;
+}
+
+.panel_article_clickable:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media (max-width: 480px) {
+  .button_block {
+    margin: 10px 10px;
+  }
+}
